@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 
 @app.route('/', methods=['GET', 'POST'])
-def home():
+def index():
     return "<h1> This is a Flask Application</h1>"
 
 
